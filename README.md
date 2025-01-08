@@ -13,7 +13,16 @@ python MEA-Defender/secure_train.py --composite_class_A=0 --composite_class_B=1 
 python model_distillation.py 
 ```
 
-## 3、Draw Distribution Plot
+## 3、Model Modification Attack
+
+```bash
+python finetune.py
+python prune.py
+python potential_attack.py
+...
+```
+
+## 4、Draw Distribution Plot
 
 ```bash
 # generation
